@@ -7,7 +7,7 @@
 
 # MERN STACK STARTER
 
-This repo contain React and express connected as a mern stack starter file for full stack developement made by [Sonu Kumar](https://github.com/SonuKumar81800). There are Two Seperate folder server and client .
+This repo contains React and express connected as a mern stack starter file for full-stack development made by [Sonu Kumar](https://github.com/SonuKumar81800). There are Two Separate folder server and client.
 
 ### How to run server
 
