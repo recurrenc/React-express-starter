@@ -1,0 +1,36 @@
+{
+  "name": "livechatserver",
+  "version": "1.0.0",
+  "description": "this is server side application as a backend of live chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd ../Client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "express",
+    "live",
+    "chat",
+    "server",
+    "backend"
+  ],
+  "author": "Sonu Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "connect-mongodb-session": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.5",
+    "node-sessionstorage": "^1.0.0",
+    "nodemon": "^2.0.7",
+    "session-storage": "^1.0.1"
+  }
+}
